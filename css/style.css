@@ -4,3 +4,63 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: var(--color-8 );
+}
+
+header {
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh 5vw 0vh 5vw;
+}
+
+.header__logo {
+    /* background: blue; */
+    display: flex;
+    align-items: center;
+}
+
+.header__logo img {
+    height: 7vh;
+    margin-right: 1vw;
+}
+
+.header__logo h2{
+    color: var(--color-1);
+    line-height: 3vh;
+    font-size: 22px;
+    font-family: "Poppins-SemiBold";
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    /* background: green; */
+    gap: 45px;
+}
+
+header nav li {
+    margin: 0px 10px;
+    list-style: none;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: var(--color-1);
+    font-family: "Poppins-SemiBold";
+    font-weight: 800;  
+    font-size: 20px;
+}
+
+header nav li a img {
+    height: 3vh;
+    margin-top: 8px;
+}
+
+.header__menu {
+    /* background: violet; */
+    display: flex;
+    align-items: center;
+}
