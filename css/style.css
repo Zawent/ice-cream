@@ -64,3 +64,62 @@ header nav li a img {
     display: flex;
     align-items: center;
 }
+
+.up_part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article_jumping {
+    width: 679px;
+    display: flex;
+    flex-direction: column;
+}
+
+.article_jumping h1 {
+    color: var(--color-1);
+    font-family: "Poppins-SemiBold";
+    font-size: 120px;
+    line-height: 110px;
+}
+
+
+
+
+.card {
+    background-color: var(--color-1);
+    width: 276px;
+    padding: 3vh;
+    border-radius: 12px;
+}
+
+.section__right{
+    margin: 6vw;
+}
+
+.pic_and_name{
+    display: flex;
+    align-items: center;
+}
+
+.pic{
+    height: 6vh;
+}
+
+.name_and_stars{
+    margin-left: 10px;
+}
+
+.name_and_stars h3{
+    font-family: "Poppins-Medium";
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
