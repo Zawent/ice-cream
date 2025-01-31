@@ -21,3 +21,8 @@
     font-family: "Poppins-Medium";
     src: url(../storage/font/Poppins/Poppins-Medium.ttf);
 }
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/font/Poppins/Poppins-Regular.ttf);
+}

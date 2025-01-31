@@ -68,33 +68,72 @@ header nav li a img {
 .up_part {
     display: flex;
     justify-content: space-between;
+    margin-top: 10vh;
 }
 
-.article_jumping {
+.article__jumping{
     width: 679px;
     display: flex;
     flex-direction: column;
+    margin-left: 5vw;
 }
 
-.article_jumping h1 {
+.article__jumping h1{
     color: var(--color-1);
     font-family: "Poppins-SemiBold";
     font-size: 120px;
     line-height: 110px;
 }
 
+.article__jumping p{
+    color: var(--color-1);
+    font-family: "Poppins-Medium";
+    font-size: 22px;
+    margin-top: 4vh;
+}
 
+.div__buttons{
+    display: flex;
+    margin-top: 4vh;
+}
 
+.div__buttons a{
+    width: 268px;
+    height: 86px;
+    border-radius: 10px;
+    font-size: 32px;
+    text-decoration: none;
+    color: var(--color-1);
+    font-family: "Poppins-Regular";
+    text-align: center;
+    place-content: center;
+}
+
+.first{
+    border: solid white;
+}
+
+.second{
+    margin-left: 3vw;
+    background-color: hsla(0, 0%, 100%, 0.15);}
 
 .card {
     background-color: var(--color-1);
-    width: 276px;
+    width: 331px;
+    height: 202px;
     padding: 3vh;
     border-radius: 12px;
 }
 
+.card p{    
+    margin-top: 2vh;
+    font-family: "Poppins-Medium";
+    font-size: 18px;
+}
+
 .section__right{
-    margin: 6vw;
+    margin-right : 5vw;
+    margin-top: 3vh;
 }
 
 .pic_and_name{
@@ -103,11 +142,11 @@ header nav li a img {
 }
 
 .pic{
-    height: 6vh;
+    height: 58px;
 }
 
 .name_and_stars{
-    margin-left: 10px;
+    margin-left: 16px;
 }
 
 .name_and_stars h3{
@@ -115,11 +154,101 @@ header nav li a img {
     font-size: 25px;
 }
 
+.down_card {
+    margin-top: 8vh;
+}
+
+.down_card h3{
+    font-family: "Poppins-Medium";
+    color: var(--color-1);
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+}
+
+.icons a {
+    width: 60px;
+    height: 60px;
+    border: solid white;
+    border-radius: 20px;
+    background-color: hsla(0, 0%, 100%, 0.15);
+    text-align: center;
+    place-content: center;
+}
 
 
 
+.down_part {
+
+}
+
+.ice_cards {
+    display: flex;
+    margin: 16vh 9vw 0px;
+    height: 35vh;
+}
+
+.cardLeft {
+    width: 40vw;
+    display: flex;
+    padding: 30px;
+    border: solid 1px white;
+    margin-right: 2vw;
+    align-items: center;
+    background-color: hsla(0, 0%, 100%, 0.15);
+    border-radius: 20px;
+}
+
+.cardLeft img {
+    height: 20vh; 
+    margin-left: -2vw;
+}
 
 
+.iceInfo h3 {
+    font-family: "Poppins-Medium";
+    color: var(--color-1);
+    font-size: 1.7rem;
+}
+
+.iceInfo h5 {
+    margin-top: 1vh;
+    font-family: "Poppins-Regular";
+    font-size: 20px;
+    color: var(--color-1);
+}
+
+.optionsDelivery {
+    margin-top: 1.5vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.optionsDelivery a{
+    width: 10vw;
+    height: 40px;
+    border: solid white;
+    border-radius: 8px;
+    text-align: center;
+    place-content: center;
+    text-decoration: none;
+    font-family: "Poppins-Regular";
+    font-size: 18px;
+    color: var(--color-1);
+}
+
+
+
+.cardRight {
+    width: 40vw;
+    display: flex;
+    padding: 30px;
+    border: solid 1px white;
+}
 
 
 
