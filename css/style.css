@@ -6,7 +6,10 @@
 }
 
 body{
-    background-color: var(--color-8 );
+    background-image: url(../storage/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
 }
 
 header {
@@ -109,19 +112,26 @@ header nav li a img {
     place-content: center;
 }
 
+
+
 .first{
-    border: solid white;
+    outline: solid white;
+}
+
+.first:hover{
+    outline: none;
 }
 
 .second{
     margin-left: 3vw;
-    background-color: hsla(0, 0%, 100%, 0.15);}
+    background-color: hsla(0, 0%, 100%, 0.15);
+}
 
 .card {
     background-color: var(--color-1);
     width: 331px;
     height: 202px;
-    padding: 3vh;
+    padding: 2vh;
     border-radius: 12px;
 }
 
@@ -142,7 +152,7 @@ header nav li a img {
 }
 
 .pic{
-    height: 58px;
+    object-fit: cover;
 }
 
 .name_and_stars{
@@ -185,26 +195,49 @@ header nav li a img {
 
 }
 
+.article__down{
+    position: relative;
+}
+
+.trending {
+    font-family: "Poppins-Medium";
+    color: #000000;
+    font-size: 1.7rem;
+    text-decoration: none;
+    position: absolute;
+    right: 10vw;
+    background: white;
+    padding: 0px 2px 1px 20px;
+    border-radius: 50px;
+}
+
+.trending img{
+    height: 45px;
+}
+
 .ice_cards {
     display: flex;
-    margin: 16vh 9vw 0px;
-    height: 35vh;
+    margin: 10vh 9vw 0px;
+    padding-top: 12vh;
+    height: 45vh;
 }
 
 .cardLeft {
     width: 40vw;
     display: flex;
-    padding: 30px;
+    padding: 20px;
     border: solid 1px white;
     margin-right: 2vw;
     align-items: center;
     background-color: hsla(0, 0%, 100%, 0.15);
     border-radius: 20px;
+    backdrop-filter: blur(24px);
 }
 
 .cardLeft img {
     height: 20vh; 
     margin-left: -2vw;
+    object-fit: cover;
 }
 
 
@@ -231,7 +264,7 @@ header nav li a img {
 .optionsDelivery a{
     width: 10vw;
     height: 40px;
-    border: solid white;
+    border: solid 1px white;
     border-radius: 8px;
     text-align: center;
     place-content: center;
@@ -241,7 +274,10 @@ header nav li a img {
     color: var(--color-1);
 }
 
-
+.price_and_counter {
+    display: flex;
+    margin-top: 2vh;
+}
 
 .cardRight {
     width: 40vw;
